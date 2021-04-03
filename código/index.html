@@ -1,18 +1,157 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tower Defense</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CoDefenders</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap" rel="stylesheet">
 </head>
 <body>
+    
+    <header>
+        <a href="#" class="logo"><span>Co</span>Defenders</a>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu()">Início</a></li>
+            <li><a href="#about" onclick="toggleMenu()">Sobre</a></li>
+            <li><a href="#menu" onclick="toggleMenu()">Vídeos</a></li>
+            <li><a href="#expert" onclick="toggleMenu()">Time</a></li>
+        </ul>
+    </header>
 
-    <canvas id="canvas1"></canvas>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2> <span class="pink">Co</span>Defenders </h2>
+            <p>Junte-se à doutora Mônica Brasilis na missão de salvar a humanidade de um perigoso vírus. Transportando a cura para a doença, a doutora Mônica precisa enfrentar antes uma horda de zumbis. Ao longo do caminho ela contará com a ajuda de grandes ícones do mundo do entretenimento. De mestre Yoda a Indiana Jones. <br><br>
+            A batalha pelo o futuro do nosso planeta está a um start de começar.</p>
+            <a href="game.html" class="btn"> JOGAR! </a>
+        </div>
+    </section>
 
-    <script src="script.js"></script>
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>S</span>obre</h2>
+                <p>O CoDefenders é um jogo em 2D cujo objetivo é reforçar a importância do enfrentamento a Covid-19 enquanto presta também uma merecida homenagem aos trabalhadores da linha de frente contra o vírus. 
+                <br><br>
+                Usando como inspiração a primeira pessoa vacinada no Brasil (a enfermeira Mônica Calazans), o game conta ainda com os heróis da ficção se juntando a luta do personagem principal. Indicado para o público infantil de todas as idades, CoDefenders é cheio de referências que marcaram gerações e um lembrete: unidos somos capazes de enfrentar qualquer inimigo.
+                </p>
+            </div>
+            <div class="col50">
+                <div class="imgBx">
+                    <img src="img/img1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText"> Vejam nossos <span>V</span>ídeos</h2>
+            <p>Inovação e diversão, saiba mais aqui.</p>
+        </div>
+        <div class="content">
+            <a href="https://youtu.be/d7GmEPcjoqA" target="_blank">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/pitch.JPG" alt="">
+                </div>
+                <div class="text">
+                    <h3>Vídeo Pitch</h3>
+                </div>
+            </div>
+            </a>
+            <a href="https://youtu.be/edQkh3iceBY" target="_blank">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/demo.JPG" alt="">
+                </div>
+                <div class="text">
+                    <h3>Vídeo Demo</h3>
+                </div>
+            </div>
+            </a>
+        </div>
+        <div class="title">
+            <a href="download/apresentacao.pdf" class="btn2" download="CoDefenders - Time 31">Apresentação em PDF</a>
+        </div>
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText"> <span>T</span>ime <span>31</span> </h2>
+            <p>Três mineiros, um carioca e muita vontade de mudar o mundo como puder: este é o time 31!</p>
+        </div>
+        <div class="content">
+            <a href="https://www.linkedin.com/in/eduarda-lopes66/" target="_blank" class='linkedin'>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/eduarda.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Eduarda</h3>
+                    <h4>Marketing <br> Business</h4>
+                </div>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/fernandapsilva29/" target="_blank" class='linkedin'>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/fernanda.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Fernanda</h3>
+                    <h4>Desenvolvedora Web <br> Designer UI/UX</h4>
+                </div>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/pedro-henrique-bezerra-de-melo-saunders-76921a20a" target="_blank" class='linkedin'>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/pedro.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Pedro</h3>
+                    <h4>Desenvolvedor</h4>
+                </div>
+            </div>
+            </a>
+            <a href="https://www.linkedin.com/in/will-marinho-328401163/" target="_blank" class='linkedin'>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="img/willian.jpeg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Will</h3>
+                    <h4>Jornalista <br> Publicitário</h4>
+                </div>
+            </div>
+            </a>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Desenvolvido orgulhosamente em 4 dias no <a href="https://www.hacks.gobrasa.org/" target="_blank">Hacka da Brasa</a> Todos os direitos reservados. </p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener ('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        function toggleMenu () {
+            const menuToggle = document.querySelector('.menuToggle');
+            const navigation = document.querySelector('.navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+
 </body>
 </html>
