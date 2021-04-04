@@ -1,6 +1,6 @@
 # Hacka Brasa Time31
 # CoDefenders
-## A batalha pelo o futuro do nosso planeta está a um start de começar.
+## A batalha pelo futuro do nosso planeta está a um start de começar.
 
 ### Solução
 Pensando nisso temos como desafio a releitura do jogo Plants vs. Zombies, com um background para a conscientização sobre o enfrentamento da pandemia da Covid-19. 
