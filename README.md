@@ -9,7 +9,7 @@ Deste modo nasceu o CoDefenders, um game em 2D cujo objetivo é reforçar a impo
 O desenvolvimento do app foi feito com utilizando as tecnologias **HTML5**, **CSS3** e **JavaScript**. 
 
 ### Vídeo Demo
-[![Watch the video](https://github.com/FernandaPS29/HackaBrasaTime31/blob/main/capas/capaDemo.JPG)](https://youtu.be/Sdvxm5FkCQ4)
+[![Watch the video](https://github.com/FernandaPS29/HackaBrasaTime31/blob/main/capas/capaDemo.JPG)](https://youtu.be/jdB8Jlq15KU)
 
 ### Vídeo Pitch
 [![Watch the video](https://github.com/FernandaPS29/HackaBrasaTime31/blob/main/capas/capaPitch.JPG)](https://youtu.be/yxFit99I3yA)
