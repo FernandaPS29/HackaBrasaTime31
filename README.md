@@ -12,4 +12,4 @@ O desenvolvimento do app foi feito com utilizando as tecnologias **HTML5**, **CS
 [![Watch the video](https://github.com/FernandaPS29/HackaBrasaTime31/blob/main/capas/capaDemo.JPG)](https://youtu.be/Sdvxm5FkCQ4)
 
 ### Vídeo Pitch
-[![Watch the video]( https://github.com/FernandaPS29/HackaBrasaTime31/blob/main/capas/capaPitch.JPG)]( https://youtu.be/)
+[![Watch the video](https://github.com/FernandaPS29/HackaBrasaTime31/blob/main/capas/capaPitch.JPG)](https://youtu.be/yxFit99I3yA)
