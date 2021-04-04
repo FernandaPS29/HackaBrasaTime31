@@ -27,16 +27,27 @@
     flex-wrap: wrap;
     flex-direction: row;
 }
-
+.facil {
+    color: #8AC926;
+    font-size: 1.4em;
+}
+.medio {
+    color: #FFCA3A;
+    font-size: 1.4em;
+}
+.dificil {
+    color: #FF595E;
+    font-size: 1.4em;
+}
 p {
     font-size: 1.2em;
     color: #fff;
     height: 50%;
 }
-.btn {
+.btnFacil {
     font-size: 1.5em;
-    color: #fff;
-    background: #ec008c;
+    color: #1b1464;
+    background: #8AC926;
     display: inline-block;
     padding: 10px 30px;
     margin-top: 20px;
@@ -44,7 +55,28 @@ p {
     letter-spacing: 2px;
     transition: 0.5s;
 }
-
+.btnMedio {
+    font-size: 1.5em;
+    color: #1b1464;
+    background: #FFCA3A;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btnDificil {
+    font-size: 1.5em;
+    color: #1b1464;
+    background: #FF595E;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
 .row {
     position: relative;
     width: 100%;
@@ -90,7 +122,27 @@ p {
     transform: translate(-50%, -50%);
     width: 900px;
     height: 600px;
-    background: url(../img/fundoGame.jpg);
+    background: url(../img/gameFacil.jpg);
+    background-repeat: no-repeat;
+}
+#canvas2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    background: url(../img/gameMedio.jpg);
+    background-repeat: no-repeat;
+}
+#canvas3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    background: url(../img/gameDificil.jpg);
     background-repeat: no-repeat;
 }
 div {

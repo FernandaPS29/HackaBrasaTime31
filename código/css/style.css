@@ -38,12 +38,55 @@ p {
     font-size: 5em;
     color: #fff;
 }
-
 .banner .content p {
     font-size: 1.2em;
     color: #fff;
 }
-
+.banner .content p a {
+    color: #ec008c;
+}
+.btnFacil {
+    font-size: 3em;
+    color: #1b1464;
+    background: #8AC926;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btnMedio {
+    font-size: 3em;
+    color: #1b1464;
+    background: #FFCA3A;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btnDificil {
+    font-size: 3em;
+    color: #1b1464;
+    background: #FF595E;
+    display: inline-block;
+    padding: 10px 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btnFacil:hover {
+    letter-spacing: 9px;
+}
+.btnMedio:hover {
+    letter-spacing: 9px;
+}
+.btnDificil:hover{
+    letter-spacing: 9px;
+}
 .btn {
     font-size: 3em;
     color: #fff;
@@ -55,7 +98,6 @@ p {
     letter-spacing: 2px;
     transition: 0.5s;
 }
-
 .btn2 {
     font-size: 2em;
     color: #fff;
@@ -67,19 +109,18 @@ p {
     letter-spacing: 2px;
     transition: 0.5s;
 }
-
+.btn2:hover {
+    letter-spacing: 6px;
+}
 .btn:hover {
     letter-spacing: 6px;
 }
-
 .linkedin {
     text-decoration: none;
 }
-
 .linkedin h4{
     color: #ec008c;
 }
-
 header {
     position: fixed;
     top: 0;
@@ -92,7 +133,6 @@ header {
     align-items: center;
     transition: 0.5s;
  }
-
 header.sticky {
     background: #fff;
     padding: 10px 100px;
@@ -114,7 +154,6 @@ header.sticky .logo {
 header .logo span {
     color: #ec008c;
 }
-
 header .navigation {
     position:relative;
     display: flex;
@@ -381,7 +420,6 @@ section {
     color: #fff;
     background: #ec008c;
     display: inline-block;
-    text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 2px;
     transition: 0.5s;
